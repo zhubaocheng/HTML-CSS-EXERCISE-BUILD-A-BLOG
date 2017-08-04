@@ -1,0 +1,88 @@
+body {
+  background: #404040;
+  line-height: 1.7;
+}
+
+a, body {
+  color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar {
+  float: left;
+  widows: 25%;
+  position: fixed;
+}
+
+.sidebar > * {
+  padding: 10px 20px;
+}
+
+.header .logo {
+  padding: 10px 20px;
+  font-size: 30px;
+  display: inline-block;
+  border: 5px solid #eee;
+  margin-bottom: 20px;
+}
+
+.logo {
+  line-height: 1;
+}
+
+.sidebar .nav a,
+.sidebar .tag-list a {
+  display: block;
+  padding: 7px 0;
+  color: #888;
+  transition: 300ms;
+}
+
+.sidebar .nav a, {
+  font-weight: 900;
+}
+
+.sidebar .nav a:hover,
+.sidebar .tag-list a:hover {
+  color: #eee;
+}
+
+.sidebar .nav a:hover {
+  font-size: 20px;
+}
+
+.main {
+  float: right;
+  width: 75%;
+  color: #404040;
+}
+
+.article-list, .article {
+  margin-right: 30%;
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 50px black;
+}
+.article-list .item > *,
+.article > * {
+  margin: 10px 0;
+}
+.article-list .item {
+  margin-bottom: 30px;
+}
+
+.article-list .item .title,
+.article .title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.article-list .item .status,
+.article .status{
+  font-size: 14px;
+  color: #888;
+}
