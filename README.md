@@ -1,4 +1,3 @@
 # README
-
-第一周作业
 # HTML-CSS-EXERCISE-BUILD-A-BLOG
+学习HTML & CSS 建立一个博客。
