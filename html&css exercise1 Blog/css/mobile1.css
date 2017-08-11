@@ -1,0 +1,35 @@
+.sidebar {
+	position: relative;
+	display: block;
+	float: none;
+	width: 100%;
+}
+
+.main {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.article {
+	margin-right: 0;
+}
+
+.sidebar .nav,
+.sidebar .tag-list {
+	text-align: center;
+	display: none;
+}
+
+#menu-checkbox:checked ~ .nav,
+#menu-checkbox:checked ~ .tag-list {
+	display: block;
+}
+
+#menu-toggle {
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	font-weight: 700;
+	font-size: 20px;
+}

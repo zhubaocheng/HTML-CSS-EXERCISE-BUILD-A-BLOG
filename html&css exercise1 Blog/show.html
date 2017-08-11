@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link media="(max-width:768px)" rel="stylesheet" href="css/mobile.css">
   <title>My Blog</title>
 </head>
 <body>
   <div class="sidebar">
+    <label id="menu-toggle" for="menu-checkbox">...</label>
+    <input id="menu-checkbox" type="checkbox">
     <div class="header">
       <a href="index.html" class="logo">My Blog</a>
       <div class="intro">welcome to my first blog!</div>
